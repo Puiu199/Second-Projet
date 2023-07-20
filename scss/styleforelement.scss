@@ -43,6 +43,10 @@
 	position: relative;
 	box-shadow: 3px 5px 2px gray;
     display: block;	
+	cursor: pointer;
+}
+.principal:hover{
+	box-shadow: inset 1px 1px 2px gray;
 }
 .detalies
 {  
@@ -92,6 +96,9 @@
 	font-size: 18px;
     margin: auto;
 	font-weight: bold;
+	:hover{
+		box-shadow: 15px 2px 3px grey;
+	  }
 }
 .quicklyby
 {
