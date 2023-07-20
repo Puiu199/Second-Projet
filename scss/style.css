@@ -26,8 +26,10 @@ h1 {
   border-radius: 7px;
   font-size: 16px;
   margin: 0px;
-  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.377);
   font-family: Museo Sans Cyrl;
+}
+.inbusket:hover {
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.377);
 }
 
 .quickcall {
@@ -46,8 +48,10 @@ h1 {
   border-radius: 7px;
   font-size: 16px;
   margin: 0px;
-  box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.377);
   border-radius: 0px 7px 7px 0px;
+}
+.quickcall:hover {
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.377);
 }
 
 .bigprice {
@@ -72,8 +76,8 @@ div > ul {
 
 div > ul > li {
   display: grid;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: 0px;
   margin-right: 0px;
 }
@@ -97,7 +101,7 @@ div > ul > li {
 
 .inpnumer {
   width: 105px;
-  height: 60px;
+  height: 50px;
   border: 1px solid;
   font-size: 24px;
   padding: 0px;
@@ -107,18 +111,31 @@ div > ul > li {
   align-items: center;
   border-color: #956D84;
   margin-right: 10px;
+  border-radius: 5px;
+}
+
+.phone {
+  display: inline;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #956D84;
+  border-radius: 5px;
+  font-size: 24px;
 }
 
 .comm {
-  width: 100%;
+  width: 500px;
   display: flex;
   align-items: start;
-  flex-wrap: nowrap;
-  width: 100%;
+  flex-wrap: wrap;
   height: 150px;
-  border: none;
+  margin-left: 30px;
   justify-content: space-around;
-  margin-top: 0px;
+  border: none;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 div > a {
@@ -151,8 +168,7 @@ details:focus-within {
   background-size: contain;
   position: absolute;
   display: grid;
-  gap: 1px;
-  right: 100px;
+  right: 150px;
   left: auto;
   padding: 2px;
   box-sizing: border-box;
@@ -187,7 +203,6 @@ details:focus-within {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
-  padding-left: 50px;
   justify-items: left;
   box-sizing: border-box;
 }
